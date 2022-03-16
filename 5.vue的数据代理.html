@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+
+<script>
+    let number = 23;
+    let obj = {
+        name: '王恒',
+        sex:'男',
+        age: number
+    }
+    let arr1 = [1,2,3,4,5,6]
+    let arr2 = [];
+     arr2 = arr1
+
+    // Object.defineProperty(obj,'age',{
+    //     // 当有值 age （被设定的一个属性）被读取的时候，会触发get
+    //     get: function (val) {
+    //         console.log(val);
+    //         console.log('有人读取age')
+    //         return number
+    //     },
+    //     set: function (val) {
+    //         number = val
+    //         console.log('有人修改了age',val)
+    //     }
+    // })
+    console.log(obj);
+</script>
+</body>
+</html>
